@@ -1,0 +1,52 @@
+/* Name:  Sree Charan D */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  height: 80%;
+  width: 80%;
+  border:  3px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fieldwrapper {
+  margin: 10px;
+  width: 100%;
+  display: flex;
+  justify-content:center;
+}
+
+label {
+  width: 10%;
+  display: flex;
+  justify-content: right;
+  margin-right: 10px;
+}
+
+input, textarea {
+  width: 85%;
+  margin-right: 10px;
+}
+
+.button-wrapper {
+  width: 30%;
+  display: flex;
+  justify-content:space-evenly;
+}
+
+#error {
+  margin-top: 10px;
+  color:red
+}

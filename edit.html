@@ -1,0 +1,43 @@
+<!-- /* Name:  Sree Charan D */ -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./css/edit.css" />
+  </head>
+
+  <body>
+    <div class="form">
+      <h2 id="blog-title"></h2>
+      <div class="fieldwrapper">
+        <label for="title-input"><b>Title:</b> </label>
+        <input
+          type="text"
+          id="title-input"
+          class="title-input"
+          name="title-input"
+        />
+      </div>
+
+      <div class="fieldwrapper">
+        <label for="text-area"><b>Text:</b> </label>
+        <textarea
+          id="text-area"
+          class="text-area"
+          name="text-area"
+          rows="15"
+          cols="33"
+        >
+        </textarea>
+      </div>
+
+      <div class="button-wrapper">
+        <button onclick="cancelForm()">Cancel</button>
+        <button onclick="submitFormData()">Submit</button>
+      </div>
+      <div id="error"></div>
+    </div>
+    <script type="text/javascript" src="./js/edit.js"></script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+<!-- /* Name:  Sree Charan D */ -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./css/blog.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="title-wrapper">
+        <h1>My BlogPost</h1>
+      </div>
+      <div class="blogs-wrapper">
+        <div id="blog-titles" class="blog-titles-section">
+          <div class="addbtnwrapper">
+            <a id="blog-add" href="./edit.html">+Add</a>
+          </div>
+          <ol id="blog-titles-list"></ol>
+        </div>
+        <div id="blog-details" class="blog-details-section">
+          <h2 id="blog-details-title"></h2>
+          <div class="blog-details-subtitle">
+            <div id="blog-details-timestamp"></div>
+            <input type="hidden" id="blog-id" value="" />
+          </div>
+          <div id="blog-details-text"></div>
+          <div class="blog-details-edit-wrapper">
+            <a id="blog-edit" href="#">Edit</a>
+            <a id="blog-delete" href="#" onclick="onDeletePost()">Delete</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="./js/blog.js"></script>
+  </body>
+</html>

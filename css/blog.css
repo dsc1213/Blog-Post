@@ -1,0 +1,109 @@
+/* Name:  Sree Charan D */
+
+html,
+body {
+  height: 99%;
+}
+
+ol li a {
+  display:block;
+ }
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-wrapper {
+  height: 10%;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blogs-wrapper {
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+}
+
+.blog-titles-section {
+  width: 38%;
+  border-right: 1px solid black;
+  padding:5px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
+  max-height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.blog-details-section {
+  width: 60%;
+  padding:5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 15px;
+}
+
+#blog-edit:hover,
+#blog-edit:focus,
+#blog-add:hover,
+#blog-add:focus,
+#blog-delete:hover,
+#blog-delete:focus {
+    background: #b8e0c9;
+}
+
+.addbtnwrapper {
+  width: 100%;
+  margin:10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#blog-add {
+  position: relative;
+}
+
+
+#blog-edit {
+  margin-right: 10px;
+}
+
+.blog-details-subtitle {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-bottom:10px;
+}
+
+#blog-details-timestamp {
+  font-weight: bold;
+}
+
+.blog-title {
+  margin-bottom:5px;
+  margin-right: 10px;
+  cursor: pointer;
+  padding:5px;
+}
+
+.blog-title:hover, .selected {
+  color: green;
+  box-shadow: 3px 3px 3px 3px grey;
+}
+
+.blog-details-edit-wrapper {
+  margin-top: 20px;
+}
+
+#blog-id {
+  visibility: hidden;
+}
